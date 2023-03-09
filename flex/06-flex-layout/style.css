@@ -2,9 +2,58 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.left-links {
+  display: flex;
+  margin-right: auto;
+  gap: 20px;
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.right-links {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.header {
+  display: flex;
+  margin-bottom: auto;
+  padding: 0 px 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.buttons {
+  padding: 4px;
+}
+
+.footer {
+  display: flex;
+  background-color: lightgray;
+  margin-top: auto;
+  padding: 4px;
 }
 
 img {
